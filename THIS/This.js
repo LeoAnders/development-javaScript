@@ -1,5 +1,7 @@
+
 "use strict"
 console.log(this);
+console.log(globalThis);
 
 import { test } from './Mod1.js'
 
