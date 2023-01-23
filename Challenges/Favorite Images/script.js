@@ -15,7 +15,6 @@ async function getExternalImage() {
 }
 //Quando rodar essa função, ela vai me gerar a imagem
 getExternalImage()
-  c 
 //clicar ano no botão, pegar imagem externa
 document.querySelector('button').onclick = function () {
   getExternalImage()
