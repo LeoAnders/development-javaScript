@@ -1,2 +1,3 @@
-# JavaScript
- Meus estudos de java script
+<h1 align="center">JavaScript </h1>
+
+ 
