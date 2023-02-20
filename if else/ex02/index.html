@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>ex02</title>
+</head>
+
+<body>
+    <div class="introduction">
+        <p>Faça um script que pede tres notas de um aluno. Em seguida ele deve calcular a média do aluno e dar o seguinte resultado:</p>
+        <p> A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;</p>
+        <p> A mensagem "Reprovado", se a média for menor do que sete;</p>
+    </div>
+
+    <div class="grades">
+        <h3>Escreva suas notas a baixo</h3>
+        <input type="number" name="nota1" id="nota1" placeholder="Primeira nota">
+        <input type="number" name="nota1" id="nota2" placeholder="segunda nota">
+        <input type="number" name="nota1" id="nota3" placeholder="terceira nota">
+        <!--calcule button-->
+        <input type="button" value="Calcular" onclick="btnCalcule()"> 
+
+        <p id="res"></p>
+
+    </div>
+    
+</body>
+
+</html>
