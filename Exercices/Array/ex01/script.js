@@ -25,7 +25,7 @@ function twoNumbers(array){
 
 }
 
-let num = [9,2]
+let num = [9,]
 let sortedArray = twoNumbers(num)
 console.log(sortedArray);
 
