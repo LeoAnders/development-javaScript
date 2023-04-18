@@ -19,7 +19,7 @@ function numberConverter(){
 
   
 
-  } else if(FaToCe.checked){     
+  } else if(FaToCe.cheked){     
     //converter Fahrenheit para Celsius
     result = (inputNumber - 32)* 5/9
 

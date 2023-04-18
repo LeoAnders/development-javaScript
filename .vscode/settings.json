@@ -1,4 +1,8 @@
 {
     "liveServer.settings.multiRootWorkspaceName": "JavaScript",
-    "cSpell.language": "en,en-US,pt-BR"
+    "cSpell.language": "en,en-US,pt-BR",
+    "cSpell.words": [
+        "indice",
+        "operacao"
+    ]
 }
