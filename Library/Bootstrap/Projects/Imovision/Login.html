@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Bootstrap Icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <!--Script-->
+  <script src="./script.js" defer></script>
+  <title>Login</title>
+  <!--Style CSS-->
+  <link rel="stylesheet" href="LoginStyle.css"/>
+</head>
+
+<body>
+
+  <div class="container login ">
+    <div class="row ">
+     <div class="col-12 col-md-6 side-image"></div>
+      <div class="col-md-6 right">
+        <div class="input-box">        
+         <img class="icon-logo" src="./img/icon-imovision.png" alt="icon-imovision">      
+          <header class="mb-5 text-center">Create account</header>
+          <form id="form">
+            <div class="mb-2">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" placeholder="Type your name" oninput="nameValidate()">
+              <span class="span-require">Name must contain at least 3 characters</span>
+            </div>
+            <div class="mb-2">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" placeholder="Type your e-mail" oninput="emailValidade()">
+              <span class="span-require">Invalid email</span>             
+            </div>
+            <div class="mb-2">
+              <label for="city" class="form-label">City</label>
+              <input type="text" class="form-control" placeholder="Inform your city" oninput="cityValidate()">
+              <span class="span-require">Invalid city</span>     
+            </div>
+            <div class="mb-2">
+              <label for="neighborhood" class="form-label">Neighborhood</label>
+              <input type="text" class="form-control" placeholder="Inform your neighborhood" oninput="neighborhoodValidate()">
+              <span class="span-require">Invalid neighborhood</span>  
+            </div>
+            <div class="mb-2">
+              <label for="road" class="form-label">Street</label>
+              <input type="text" class="form-control" placeholder="Inform your Street" oninput="streetValidate()">
+              <span class="span-require">Invalid street</span>  
+            </div>
+            <div class="mb-2">
+              <label for="number" class="form-label">Number</label>
+              <input type="text" class="form-control" placeholder="Provide your home number" oninput="numberValidate()">
+              <span class="span-require">Invalid number</span>  
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+          </form>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>

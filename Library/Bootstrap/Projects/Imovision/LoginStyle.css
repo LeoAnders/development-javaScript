@@ -1,0 +1,88 @@
+*{
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.icon-logo{
+  width:40px;
+  margin-top: -20px;
+}
+
+#form{
+  margin-top: -25px;
+}
+ #form label{
+  font-size: 14px;
+  
+ }
+
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.row{
+  width: 800px;
+  height: 700px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+
+}
+
+.side-image{
+  background-image: url("./img/architecture-Login.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 10px 0 0 10px;
+ 
+}
+img{
+  width: 35px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  
+}
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.input-box{
+  width: 310px;
+  box-sizing: border-box;
+}
+.input-box header{
+  font-weight: 600;
+}
+
+.span-require{
+  font-size: 12px;
+  display: none;
+  color: red;
+ 
+}
+
+@media(max-width: 768px){
+.side-image{
+    border-radius: 10px 10px 0 0;
+  }
+  
+.row{
+      max-width: 420px;
+      width: 100%;
+  }
+
+.side-image{
+    display: none;
+   
+}
+
+}
