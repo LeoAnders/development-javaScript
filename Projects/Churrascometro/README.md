@@ -18,7 +18,7 @@
 
 
 <h1 align="center">
-<img alt="Readme" title="Readme" src="./github/gif-projeto-barbecue.gif">
+<img alt="Readme" title="Readme" src="./GitHub/gif-projeto-barbecue.gif">
 </h1><br><br>
 
 <h2 align="center">Cálculo utilizado</h2>
