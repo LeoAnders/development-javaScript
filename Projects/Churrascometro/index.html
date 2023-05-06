@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+    <!--Font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Icon Title-->
+    <link rel="icon" href="./img/grade.png">
+    <!--project CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Project JS-->
+    <script src="./script.js" defer></script>
+
+</head>
+
+<body>
+
+    <section>
+
+        <div class="container">
+
+            <p class="names">Adultos</p>
+            <input type="number" name="Adult" id="input-adults">
+            <p class="names">Crianças</p>
+            <input type="number" name="Kids" id="input-kids">
+            <p class="names">Duração</p>
+            <input type="number" name="Duration" id="input-duration">
+
+            <button id="open-modal" onclick="calculate()">Calcular</button>
+
+        </div>
+
+        <img src="./img/img-bbq.jpg" alt="">
+
+    </section>
+
+    <!--Window Modal-->
+    <div id="fade" class="hide"></div>
+
+    <div id="modal" class="hide">
+
+        <div class="modal-header">
+            <h2>A quantidade é de:</h2>
+        </div>
+        <div class="result-bbq">
+
+
+        </div>
+
+        <button id="close-modal">Fechar</button>
+
+    </div>
+
+
+
+
+</body>
+
+
+</html>

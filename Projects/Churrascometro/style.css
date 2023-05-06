@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(120deg, #683720, #614736);
+    font-family: sans-serif;
+    /*Uma altura de 100vh corresponde a 100% da página total.*/
+    min-height: 100vh;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(100, 100, 100);
+    background-image: url(./img/fundo-bbq.jpg);
+    background-blend-mode: darken ;
+    background-color: rgba(0,0,0,0.8);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 600px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.names{
+    color: white;
+    font-family: 'Chivo Mono', monospace;
+    margin-left: 160px;
+    
+}
+
+.container{
+   display: flex;
+   flex-direction: column;
+}
+
+input{
+    width: 200px;
+    height: 23px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    margin-left: 100px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px; 
+}
+
+#open-modal{
+    width: 100px;
+    height: 25px;
+    margin-left: 150px;
+    border-radius: 7px;
+    outline: none;
+    border: none ;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Chivo Mono', monospace;
+    background-color: #c77100;
+    transition: 0.3ms; 
+}
+
+#open-modal:hover{
+    background-color: #d3994e;
+    color: white; 
+}
+
+img{
+    width: 300px;
+    height: 600px;
+    border-radius: 7px;
+}
+
+/*Window Modal*/
+#fade{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 5;
+}
+
+#modal{
+    position: fixed;
+    left: 50%;
+    top:50%;
+    /*com a função "transform: translate" eu centralizo minha tela dentro do conteúdo*/
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: #6b5951;
+    color: white;
+    max-width: 90%;
+    padding: 25px;
+    border-radius: 3px;
+
+}
+
+.modal-header{
+    border-bottom: 1px solid #ccc;
+    font-family: 'Chivo Mono', monospace;
+    padding-bottom: 10px;
+}
+
+.result-bbq{
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 18px;
+}
+.result-bbq, p {
+    margin-bottom: 5px;
+}
+
+#close-modal{
+    width: 90px;
+    height: 20px;
+    border-radius: 7px;
+    outline: none;
+    border: none ;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: 'Chivo Mono', monospace;
+    background-color: #c03333;
+    color: white;
+    transition: 0.3ms;
+}
+
+#close-modal:hover{
+    background-color: #e95a4f;
+    color: black; 
+}
+
+#modal.hide{
+    opacity: 0;
+}
+
+#fade.hide{
+    opacity: 0;
+}
+
+#modal.hide{
+    top: 0;
+
+}
+
+#fade.hide{
+    display: none;
+}
+
+#fade,#modal{
+    transition: 0.5s;
+    opacity: 1;
+    pointer-events: all;
+}
+.result-icon{
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+}
