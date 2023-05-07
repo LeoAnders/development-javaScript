@@ -20,6 +20,7 @@ Este é um repositório dedicado aos meus estudos sobre JavaScript. Aqui, irei d
 
 > - [Churrascômetro ](https://github.com/LeoAnders/JavaScript/tree/main/Projects/Churrascometro) 
 > - [Jogo da velha ](https://github.com/LeoAnders/JavaScript/tree/main/Projects/JogoDaVelha) 
+> - [Imovision](https://github.com/LeoAnders/JavaScript/tree/main/Projects/Imovision) 
 
 [![folder](https://user-images.githubusercontent.com/115679546/236650193-85814478-2f0a-45da-94c1-974b348f0ba6.png) **Tools:** ](https://github.com/LeoAnders/JavaScript/tree/main/Tools)Pasta dedicada ao estudo de bibliotecas e frameworks de desenvolvimento em JavaScript.
 
