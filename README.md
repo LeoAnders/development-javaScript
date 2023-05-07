@@ -1,6 +1,6 @@
  
 
-<h1 align="center">JavaScript </h1>
+<h1 align="center">JavaScript</h1>
 
 ## Introdução
 
@@ -8,29 +8,28 @@ Este é um repositório dedicado aos meus estudos sobre JavaScript. Aqui, irei d
 
 ---
 
-## Projetos
+<h1 align="center">Estrutura do Repositório</h1>
 
-<h3 align="center">Churrascômetro</h3>
+ >O repositório está organizado da seguinte forma:
 
-<p>Desenvolvido no curso ProgBR, um projeto para calcular a quantidade de Carne, Cerveja e refrigerante, baseado em quantas pessoas vão estar nesse churrasco  e quanto tempo vai durar esse churrasco</p><br>
+[![folder](https://user-images.githubusercontent.com/115679546/236650193-85814478-2f0a-45da-94c1-974b348f0ba6.png) **Examples:** ](https://github.com/LeoAnders/JavaScript/tree/main/Examples)Pasta contendo alguns exemplos de código que desenvolvi durante o meu processo de aprendizado.
 
-<div align="center"">
-    <img src="https://user-images.githubusercontent.com/115679546/236647238-03dc6582-a455-4037-bf0d-f70660ad3466.gif" width="550">
-</div>
-                                                                                                                                 
->[Clique aqui para acessar código e mais informações sobre o projeto](https://github.com/LeoAnders/JavaScript/tree/main/Projects/Churrascometro)                                                                                                                            
-                                                                                                                                
----
-<h3 align="center">Jogo da velha</h3>
+[![folder](https://user-images.githubusercontent.com/115679546/236650193-85814478-2f0a-45da-94c1-974b348f0ba6.png) **Exercices:** ](https://github.com/LeoAnders/JavaScript/tree/main/Exercices)Nesta pasta, você encontrará uma variedade de exercícios que realizei para praticar JavaScript.
 
-<p> Um projeto simples desenvolvido no curso ProgBR para praticar o design pattern Model-View-Controller (MVC).
- Através deste projeto, comecei a entender alguns conhecimentos que são importantes no desenvolvimento do software.<br>
-</p>
+[![folder](https://user-images.githubusercontent.com/115679546/236650193-85814478-2f0a-45da-94c1-974b348f0ba6.png) **Projects:** ](https://github.com/LeoAnders/JavaScript/tree/main/Projects)Pasta contendo alguns projetos que desenvolvi e que envolvem JavaScript.
 
-<div align="center">
-    <img src="https://user-images.githubusercontent.com/115679546/236647323-d75358b7-7bfb-4119-91da-eebd8efbbf9b.gif" width="500">
-</div>
+> - [Churrascômetro ](https://github.com/LeoAnders/JavaScript/tree/main/Projects/Churrascometro) 
+> - [Jogo da velha ](https://github.com/LeoAnders/JavaScript/tree/main/Projects/JogoDaVelha) 
 
->[Clique aqui para acessar código e mais informações sobre o projeto](https://github.com/LeoAnders/JavaScript/tree/main/Projects/JogoDaVelha) 
+[![folder](https://user-images.githubusercontent.com/115679546/236650193-85814478-2f0a-45da-94c1-974b348f0ba6.png) **Tools:** ](https://github.com/LeoAnders/JavaScript/tree/main/Tools)Pasta dedicada ao estudo de bibliotecas e frameworks de desenvolvimento em JavaScript.
+
+> - [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="20px" /> Node.js: ](https://github.com/LeoAnders/JavaScript/tree/main/Tools/Node.js) Ambiente de tempo de execução JavaScript que permite executar código JavaScript fora de um navegador.
+>
+> - [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="20px" /> Bootstrap: ](https://github.com/LeoAnders/JavaScript/tree/main/Tools/Bootstrap) Framework de front-end que facilita a criação de sites responsivos e móveis.
+
+
+
+
+
 
 
