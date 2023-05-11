@@ -14,7 +14,7 @@ Este é um repositório dedicado aos meus estudos sobre JavaScript. Aqui, irei d
 
 [![folder](https://user-images.githubusercontent.com/115679546/236650193-85814478-2f0a-45da-94c1-974b348f0ba6.png) **Examples:** ](https://github.com/LeoAnders/JavaScript/tree/main/Examples)Pasta contendo alguns exemplos de código que desenvolvi durante o meu processo de aprendizado.
 
-[![folder](https://user-images.githubusercontent.com/115679546/236650193-85814478-2f0a-45da-94c1-974b348f0ba6.png) **Exercices:** ](https://github.com/LeoAnders/JavaScript/tree/main/Exercices)Nesta pasta, você encontrará uma variedade de exercícios que realizei para praticar JavaScript.
+[![folder](https://user-images.githubusercontent.com/115679546/236650193-85814478-2f0a-45da-94c1-974b348f0ba6.png) **Exercises:** ](https://github.com/LeoAnders/JavaScript/tree/main/Exercices)Nesta pasta, você encontrará uma variedade de exercícios que realizei para praticar JavaScript.
 
 [![folder](https://user-images.githubusercontent.com/115679546/236650193-85814478-2f0a-45da-94c1-974b348f0ba6.png) **Projects:** ](https://github.com/LeoAnders/JavaScript/tree/main/Projects)Pasta contendo alguns projetos que desenvolvi e que envolvem JavaScript.
 
