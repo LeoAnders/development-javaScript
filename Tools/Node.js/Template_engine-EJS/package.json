@@ -1,15 +1,5 @@
 {
-  "name": "template_engine-ejs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "Criando_template_engine.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "ejs": "^3.1.9"
   }
 }
