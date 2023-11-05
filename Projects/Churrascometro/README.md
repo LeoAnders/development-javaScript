@@ -17,9 +17,12 @@
 <p>Desenvolvido no curso ProgBR, um projeto para calcular a quantidade de Carne, Cerveja e refrigerante, baseado em quantas pessoas vão estar nesse churrasco  e quanto tempo vai durar esse churrasco</p><br>
 
 
-<h1 align="center">
-<img alt="Readme" title="Readme" src="./GitHub/gif-projeto-barbecue.gif">
-</h1><br><br>
+<div align="center">
+  
+![gif-projeto-barbecue](https://github.com/LeoAnders/Javascript-study/assets/115679546/d3944ba2-4089-41d2-8434-dfd350a6d1b0)
+
+</div>
+
 
 <h2 align="center">Cálculo utilizado</h2>
 
