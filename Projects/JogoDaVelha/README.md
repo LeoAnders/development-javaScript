@@ -16,9 +16,11 @@
 
 </div>
 
-<h1 align="center">
-<img align="center" alt="Readme" title="Readme" src=".\GitHub\gif-Jogo-da-velha.gif" width="60%">
-</h1>
+<div align="center">
+
+![gif-Jogo-da-velha](https://github.com/LeoAnders/Javascript-study/assets/115679546/569a4920-505b-4e92-8f48-7acb76756aac)
+
+</div>
 
 <p>
 Um projeto simples desenvolvido no curso ProgBR para praticar o design pattern Model-View-Controller (MVC).<br>
