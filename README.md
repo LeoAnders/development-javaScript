@@ -16,5 +16,5 @@ The repository is structured as follows:
 
 [![folder](https://user-images.githubusercontent.com/115679546/236650193-85814478-2f0a-45da-94c1-974b348f0ba6.png) **Projects:** ](https://github.com/LeoAnders/JavaScript/tree/main/Projects)Folder containing some projects I developed involving JavaScript.
 
-> - [BBQ Meter ](https://github.com/LeoAnders/JavaScript/tree/main/Projects/Churrascometro)
-> - [hash](https://github.com/LeoAnders/JavaScript/tree/main/Projects/JogoDaVelha)
+> - [BBQ Meter ](https://github.com/LeoAnders/JavaScript/tree/main/Projects/BBQ-meter)
+> - [hash](https://github.com/LeoAnders/JavaScript/tree/main/Projects/hash)
