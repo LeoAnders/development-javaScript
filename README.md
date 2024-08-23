@@ -1,12 +1,10 @@
-<h1 align="center">JavaScript</h1>
-
-## Introduction
+<h2 align="center">JavaScript</h2>
 
 This is a repository dedicated to my studies on JavaScript. Here, I will document the concepts and techniques I am learning in code, as well as share some examples and projects I have developed.
 
 ---
 
-<h1 align="center">Repository Structure</h1>
+### Repository Structure
 
 The repository is structured as follows:
 
